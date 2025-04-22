@@ -1,0 +1,43 @@
+.folder {
+  margin-top: 6px !important;
+  background-color: rgb(63, 60, 60);
+  display: flex;
+  align-items: first baseline;
+  gap: 0.6rem;
+  padding: 3px;
+  width: 300px;
+  cursor: pointer;
+}
+
+.folder > span {
+  margin: 0 5px 2px 0;
+  padding: 2px;
+  padding-left: 10px;
+}
+
+.file {
+  margin-top: 6px;
+  padding-left: 5px;
+  display: flex;
+  align-items: first baseline;
+  gap: 0.6rem;
+}
+
+.action-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 0.8rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.folder > div > button {
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(92, 89, 89);
+}
+
+.plus-icon {
+  margin-top: -10px !important;
+}
